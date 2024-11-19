@@ -73,8 +73,6 @@ id = "led_green"
 type = "led"
 pin = 11  # Pin connected to the green LED
 
-
-
 ```
 
 ### `platformio.ini` Configuration File
@@ -98,7 +96,7 @@ board = esp32dev
 
 This file sets up the PlatformIO environment for your project. Although this setup uses an ESP32 board, you can adapt it to other boards if needed.
 
-![Explorer](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/Explorer.png "Explorer")
+![Explorer](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/fa64e72a8c505f874d15c61b6d3d6354b99270b7/Images/add%20two%20files.png "Setup")
 
 
 ### 5. Install the Necessary Extensions
@@ -114,10 +112,13 @@ Make sure the following extensions are installed in your Codespace or local envi
 
 Once the extensions are installed, you should see a message from the PlatformIO extension, indicating that the configuration is loading.
 
-![Extenstions](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/platformio-message.png "platformio-message") 
-
 ![platformio-configuring](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/platformio-configuring.png "platformio-configuring")
 
+![platformio-configuring](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/platformio-configuring1.png "platformio-configuring")
+
+![Extenstions](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/platformio-message.png "platformio-message") 
+
+ 
 ### 6. Build the Project
 After the PlatformIO environment finishes configuring, click Build to compile the code.
 
@@ -129,11 +130,12 @@ If everything is set up correctly, you should see a build success message.
 
 ### 7. Enter Your License Key
 When prompted, enter your Wokwi license key to continue the simulation.
-![licence-key](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/licence-key.png "licence-key")
 
 **Sample Reference Key:** 
 ```
 JnU9NDExNDMzOTE2NzAwNDgxNTM3Jm49QVJVVkkrQiZlPWFydXZpYmFsYW11cnVnYW4lNDBnbWFpbC5jb20meD0yMDI0MTIxOQDUGJjn9WS08KhQ1wqeo5hdL3e7YQBWpa2jQn5fFH5vC02cUWu561snpiR9XLkR_StBSXRv7j3DL34qMqmueEKSN3mG_P1QVlYK0UlhOScWEhgT1ZD3844r_S3IBcFKxAvg4fIbsX8388iPvgSCrBQNXzjxVS_Pk_PKUtc0eGsxY3pAfdNvl5MTMKuzIjneS8q3jYunrtkvMA30tCj_SZbCGj5eHJGlYkZ9IiSvAegqTkx2mBdDnhph0EyVVuYcITF9wEBAYKRQVisTNCtw_P8SSGZNcBZM4rCdeponWyQzYGzGu5_Sw3U51ZXB7_Sb0k7UAEncvYNuITgr85J_S2C3cwmG7r7z_SL
+
+![licence-key](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/licence-key.png "licence-key")
 
 ```
 ### 8. Start the Simulation
