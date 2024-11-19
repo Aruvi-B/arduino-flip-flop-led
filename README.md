@@ -5,6 +5,7 @@
 This project demonstrates a simple LED flip-flop pattern using an Arduino Uno. The LEDs will toggle between different colors in a sequential pattern, creating a flip-flop effect.
 
 ### LED Setup:
+Arduino Uno Pin connections
 - **Red LED** on Pin 4
 - **Yellow LED** on Pin 3
 - **Green LED** on Pin 2
