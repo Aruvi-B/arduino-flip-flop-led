@@ -1,31 +1,35 @@
 # Arduino Flip-Flop LED Project
 
-This project demonstrates a simple LED flip-flop pattern using an Arduino Uno. The LEDs will toggle between different colors in a sequential pattern, creating a flip-flop effect. The setup includes three LEDs connected to the following pins:
+## Overview
 
+This project demonstrates a simple LED flip-flop pattern using an Arduino Uno. The LEDs will toggle between different colors in a sequential pattern, creating a flip-flop effect.
+
+### LED Setup:
 - **Red LED** on Pin 4
 - **Yellow LED** on Pin 3
 - **Green LED** on Pin 2
 
+This setup can be simulated using the [Wokwi Simulator](https://wokwi.com/projects/414964657985674241).
+
 ## Circuit Diagram
 
-The circuit consists of three LEDs, each connected to the Arduino Uno through resistors. The LEDs are placed in a simple pattern where each LED will turn on in sequence. You can simulate this project using the Wokwi simulator.
-
-You can view the circuit diagram and start the simulation directly from the link below:
-
-- [View the project on Wokwi](https://wokwi.com/projects/414964657985674241)
+The circuit consists of three LEDs connected to the Arduino Uno through resistors. The LEDs turn on in sequence, creating the flip-flop effect.
 
 ![Circuit Diagram](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/circuit-diagram.png?raw=true)
 
-To download the entire project, including the circuit setup and code files, click **Download Project ZIP** from the top left corner on Wokwi.
+[**View the project on Wokwi**](https://wokwi.com/projects/414964657985674241)
+
+### To download the entire project, including the circuit setup and code files:
+Click **Download Project ZIP** from the top left corner on Wokwi.
+
+---
 
 ## Steps to Build
-
-Follow these steps to create and run the project:
 
 ### 1. Create a New GitHub Repository
 
 - Go to [GitHub](https://github.com/) and create a new repository.
-- Upload the following files into your repository:
+- Upload the following files:
   - `diagram.json`
   - `libraries.txt`
   - `sketch.ino`
@@ -42,7 +46,7 @@ If you want to use GitHub Codespaces to build and simulate the project:
 
 ### 3. Organize the Files
 
-- Create a new folder named `src` inside your repository.
+- Create a folder named `src` in your repository.
 - Move the `sketch.ino` file into this folder for better organization.
 
 ### 4. Add Necessary Configuration Files
@@ -51,13 +55,13 @@ In the root directory, add the following two configuration files for proper simu
 
 #### `wokwi.toml` Configuration File
 
-```toml
+```
+toml
 [wokwi]
 version = 1
 elf = ".pio/build/uno/firmware.elf"
 firmware = ".pio/build/uno/firmware.hex"
 
-# Define any peripherals (LEDs, sensors, etc.) used in the simulation
 [[peripherals]]
 id = "led_red"
 type = "led"
@@ -72,9 +76,7 @@ pin = 12  # Pin connected to the yellow LED
 id = "led_green"
 type = "led"
 pin = 11  # Pin connected to the green LED
-
 ```
-
 ### `platformio.ini` Configuration File
 
 ```
@@ -94,12 +96,7 @@ framework = arduino
 board = esp32dev
 ```
 
-This file sets up the PlatformIO environment for your project. Although this setup uses an ESP32 board, you can adapt it to other boards if needed.
-
-![Explorer](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/fa64e72a8c505f874d15c61b6d3d6354b99270b7/Images/add%20two%20files.png "Setup")
-
-
-### 5. Install the Necessary Extensions
+### 5. Install Necessary Extensions
 
 Make sure the following extensions are installed in your Codespace or local environment:
 
@@ -108,42 +105,58 @@ Make sure the following extensions are installed in your Codespace or local envi
 3. **C/C++** – For proper code syntax highlighting and IntelliSense.
 4. **PlatformIO IDE** – To manage build configurations and dependencies.
 
-![Extenstions](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/Extenstions.png "Extensions")
+![Extensions](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/Extenstions.png?raw=true)
 
-Once the extensions are installed, you should see a message from the PlatformIO extension, indicating that the configuration is loading.
+Once the extensions are installed, PlatformIO will begin configuring your environment. You may see a configuration loading message.
 
-![platformio-configuring](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/platformio-configuring.png "platformio-configuring")
+![PlatformIO Configuring](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/platformio-configuring.png?raw=true)
 
-![platformio-configuring](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/platformio-configuring1.png "platformio-configuring")
-
-![Extenstions](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/platformio-message.png "platformio-message") 
-
- 
 ### 6. Build the Project
-After the PlatformIO environment finishes configuring, click Build to compile the code.
 
-![platformio-build](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/platformio-build.png "platformio-build")
+After PlatformIO finishes configuring, click **Build** to compile the code.
+
+![PlatformIO Build](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/platformio-build.png?raw=true)
 
 If everything is set up correctly, you should see a build success message.
 
-![build-output](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/build-output.png "build-output")
+![Build Output](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/build-output.png?raw=true)
 
 ### 7. Enter Your License Key
+
 When prompted, enter your Wokwi license key to continue the simulation.
 
-**Sample Reference Key:** 
+![licence-key](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/licence-key.png?raw=true)
+
+**Sample Reference Key:**
 ```
 JnU9NDExNDMzOTE2NzAwNDgxNTM3Jm49QVJVVkkrQiZlPWFydXZpYmFsYW11cnVnYW4lNDBnbWFpbC5jb20meD0yMDI0MTIxOQDUGJjn9WS08KhQ1wqeo5hdL3e7YQBWpa2jQn5fFH5vC02cUWu561snpiR9XLkR_StBSXRv7j3DL34qMqmueEKSN3mG_P1QVlYK0UlhOScWEhgT1ZD3844r_S3IBcFKxAvg4fIbsX8388iPvgSCrBQNXzjxVS_Pk_PKUtc0eGsxY3pAfdNvl5MTMKuzIjneS8q3jYunrtkvMA30tCj_SZbCGj5eHJGlYkZ9IiSvAegqTkx2mBdDnhph0EyVVuYcITF9wEBAYKRQVisTNCtw_P8SSGZNcBZM4rCdeponWyQzYGzGu5_Sw3U51ZXB7_Sb0k7UAEncvYNuITgr85J_S2C3cwmG7r7z_SL
 
 ```
+
 ### 8. Start the Simulation
+
 Once your license is verified, you can start the simulation. The LEDs should toggle in a flip-flop pattern as per your Arduino code.
 
-![Start-Simulation](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/start-simulation.png "Simulation")
+![Start Simulation](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/start-simulation.png?raw=true)
 
-Ensure that the Wokwi configuration paths in wokwi.toml are correct, and that all the peripherals are correctly defined.
+Ensure that the Wokwi configuration paths in `wokwi.toml` are correct, and that all the peripherals, elf and firmwares paths are correctly defined.
 
-![ensure](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/ensure.png)
+![Ensure Correct Configuration](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/ensure.png?raw=true)
 
-**OUTPUT**
-![output](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/output.png)
+---
+
+## OUTPUT
+
+When the simulation starts, the LEDs should toggle between red, yellow, and green in a sequence, creating the flip-flop effect.
+
+![Output](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/output.png?raw=true)
+
+---
+
+## Conclusion
+
+Congratulations! You have successfully built and simulated your **Arduino Flip-Flop LED Project**. Feel free to modify the code and experiment with different patterns or other components.
+
+For any issues or feedback, open an issue or contact me directly via GitHub.
+
+---
