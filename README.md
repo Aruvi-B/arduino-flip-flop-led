@@ -112,6 +112,9 @@ Once the extensions are installed, PlatformIO will begin configuring your enviro
 ![PlatformIO Configuring](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/platformio-configuring.png?raw=true)
 
 ### 6. Build the Project
+Click the commit button to ensure the changes are confirmed.
+
+![source-control](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/source-control.png?raw=true)
 
 After PlatformIO finishes configuring, click **Build** to compile the code.
 
@@ -124,7 +127,7 @@ If everything is set up correctly, you should see a build success message.
 ### 7. Enter Your License Key
 
 When prompted, enter your Wokwi license key to continue the simulation.
-
+Once your Licence key is correct the below message showcased
 ![licence-key](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/licence-key.png?raw=true)
 
 **Sample Reference Key:**
