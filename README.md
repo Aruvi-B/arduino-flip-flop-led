@@ -135,8 +135,6 @@ When prompted, enter your Wokwi license key to continue the simulation.
 ```
 JnU9NDExNDMzOTE2NzAwNDgxNTM3Jm49QVJVVkkrQiZlPWFydXZpYmFsYW11cnVnYW4lNDBnbWFpbC5jb20meD0yMDI0MTIxOQDUGJjn9WS08KhQ1wqeo5hdL3e7YQBWpa2jQn5fFH5vC02cUWu561snpiR9XLkR_StBSXRv7j3DL34qMqmueEKSN3mG_P1QVlYK0UlhOScWEhgT1ZD3844r_S3IBcFKxAvg4fIbsX8388iPvgSCrBQNXzjxVS_Pk_PKUtc0eGsxY3pAfdNvl5MTMKuzIjneS8q3jYunrtkvMA30tCj_SZbCGj5eHJGlYkZ9IiSvAegqTkx2mBdDnhph0EyVVuYcITF9wEBAYKRQVisTNCtw_P8SSGZNcBZM4rCdeponWyQzYGzGu5_Sw3U51ZXB7_Sb0k7UAEncvYNuITgr85J_S2C3cwmG7r7z_SL
 
-![licence-key](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/licence-key.png "licence-key")
-
 ```
 ### 8. Start the Simulation
 Once your license is verified, you can start the simulation. The LEDs should toggle in a flip-flop pattern as per your Arduino code.
