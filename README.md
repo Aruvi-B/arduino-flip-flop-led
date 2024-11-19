@@ -95,7 +95,7 @@ platform = espressif32
 framework = arduino
 board = esp32dev
 ```
-![Folder Constraints](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/add%20two%20files.png, "Folder Constraints")
+![Folder Constraints](https://github.com/Aruvi-B/arduino-flip-flop-led/blob/main/Images/add-two-files.png, "Folder Constraints")
 ### 5. Install Necessary Extensions
 
 Make sure the following extensions are installed in your Codespace or local environment:
