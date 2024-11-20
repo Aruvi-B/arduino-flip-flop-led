@@ -118,6 +118,7 @@ Once the extensions are installed, PlatformIO will begin configuring your enviro
 
 2. Build the firmware in PlatformIO:
    ```bash
+   pip install platformio
    pio run
 
 - Use the generated firmware files (.elf and .hex) in the wokwi.toml configuration.
