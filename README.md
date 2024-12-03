@@ -32,9 +32,7 @@ Click **Download Project ZIP** from the top left corner on Wokwi.
 - Go to [GitHub](https://github.com/) and create a new repository.
 - Upload the following files:
   - `diagram.json`
-  - `libraries.txt`
   - `sketch.ino`
-  - `wokwi-project.txt`
 
 ### 2. Set Up GitHub Codespaces
 
